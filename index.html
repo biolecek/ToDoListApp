@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>To Do List</title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap&subset=latin-ext" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/6db546d6a1.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<header>
+  <div class="title">
+    <h1>To Do List</h1>
+  </div>
+</header>
+
+<body>
+  <div class="body">
+    <div class="addtask">
+      <div class="description">
+        <h3>New Task</h3>
+      </div>
+      <div class="input">
+        <form class='form'>
+          <label for="" class="newtask"></label>
+          <input type="text" class="task" id="task-input" placeholder="What you want to do?">
+          <button type="submit" class="submit">Add</button>
+        </form>
+      </div>
+    </div>
+    <div class="content">
+      <div class="list">
+        <div class="list-name">
+          <p class="name">Task List</p>
+        </div>
+        <div class="content-item">
+          <ul class="collection"></ul>
+          <div class="content-remove">
+            <button type="remove" class="remove">Clear tasks</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+<footer class="foot">
+  <h3 class="footer">First step: Start doing something!
+  </h3>
+
+</footer>
+
+</html>
